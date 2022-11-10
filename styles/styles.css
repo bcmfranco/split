@@ -20,7 +20,7 @@
     font-weight: 400;
     line-height: 1.7;
     color: #fff;
-    background: #000;
+    background: #3b3b3b;
   }
   
 
@@ -117,7 +117,7 @@ body {
 }
   
 .section-plans {
-    background-color: #000;
+    background-color: #3b3b3b;
     padding: 4rem 0 4rem 0;
 }
   
@@ -302,11 +302,7 @@ body {
 .row [class^="col-"] {
     float: left;
 }
-  
-.row [class^="col-"]:not(:last-child) {
-    /* margin-right: 6rem; */
-}
-  
+
 .row .col-1-of-3 {
     width: 90%;
     margin: auto;
@@ -322,4 +318,4 @@ body {
     .card{
         margin: 20px;
     }
-}
+  }
