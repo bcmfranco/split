@@ -282,6 +282,10 @@ body {
 }
   
 .row {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    /* grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr); */
     max-width: 114rem;
     margin: 0 auto;
 }
@@ -302,10 +306,11 @@ body {
 }
   
 .row [class^="col-"]:not(:last-child) {
-    margin-right: 6rem;
+    /* margin-right: 6rem; */
 }
   
 .row .col-1-of-3 {
-    width: calc((100% - 2 * 6rem) / 3);
+    width: 90%;
+    margin: auto;
 }
   
