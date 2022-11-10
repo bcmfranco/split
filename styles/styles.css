@@ -89,8 +89,7 @@
 }
   
 .btn--green {
-    background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#3f5efb));
-    background: linear-gradient(to right, #fc466b, #3f5efb);
+    background-color: #25D366;
     color: #fff;
 }
   
@@ -150,15 +149,15 @@ body {
 }
   
 .card__side--front-1 {
-    background: linear-gradient(-45deg, #f403d1, #64b5f6);
+    background: linear-gradient(-45deg, #6b6b6b, #85c3f6);
 }
   
 .card__side--front-2 {
-    background: linear-gradient(-45deg, #f321d7, #ffec61);
+    background: linear-gradient(-45deg, #6b6b6b, #4f7da2);
 }
   
 .card__side--front-3 {
-    background: linear-gradient(-45deg, #24ff72, #9a4eff);
+    background: linear-gradient(-45deg, #6b6b6b, #142c40);
 }
   
 .card__side--back {
@@ -167,15 +166,15 @@ body {
 }
   
 .card__side--back-1 {
-    background: linear-gradient(-45deg, #64b5f6, #f403d1);
+    background: linear-gradient(-45deg, #64b5f6, #6b6b6b);
 }
   
 .card__side--back-2 {
-    background: linear-gradient(-45deg, #ffec61, #f321d7);
+    background: linear-gradient(-45deg, #4f7da2, #6b6b6b);
 }
   
 .card__side--back-3 {
-    background: linear-gradient(-45deg, #9a4eff, #24ff72);
+    background: linear-gradient(-45deg, #142c40, #6b6b6b);
 }
   
 .card:hover .card__side--front-1,
